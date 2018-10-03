@@ -67,7 +67,7 @@ then, extending to our event space $E$ (which can contain multiple elements):
 
 $P(E) = \dfrac{ \text{number of outcomes in E} }{\text{number of outcomes in S}}= \dfrac{\mid E \mid}{\mid S \mid}$
 
-The problem here is, however, what if all the signular events are not equally likely?
+The problem here is, however, what if all the singular events are not equally likely?
 
 That's why in the early 20th century, Kolmogorov and Von Mises came up with 3 axioms that altogether are equivalent to the law of relative frequency.
 
