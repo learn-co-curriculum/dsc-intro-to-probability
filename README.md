@@ -54,9 +54,18 @@ Let's denote an event $E$, and $P(E)$ the probability of $E$ occurring. Next, le
 
 $$P(E) = \lim_{n\rightarrow\infty} \dfrac{S{(n)}}{n}$$
 
-This is a useful definition, but in practice, it is fairly cumbersome as $\dfrac{S{(n)}}{n}$ tends to be unsteady in the process of ramping up $n$. The definition of Laplace simplifies this slightly by stating that, if all the singular events in the event space are as likely.
+This is a useful definition, but in practice, it is fairly cumbersome as $\dfrac{S{(n)}}{n}$ tends to be unsteady in the process of ramping up $n$. The definition of Laplace simplifies this slightly by stating that, if all the singular events in the event space (here denoted by $S$) are as likely.
 
-$$P(E) = \dfrac{ \# A }{\#\Omega}$$
+$$P(E) = \dfrac{ \# E }{\# S}$$
+
+To understand this even better, let's look at another way of writing this. Again, if we say each outcome in $S$ is equally likely, then the probability of observing one particular outcome is:
+
+$P(\text{each outcome}) = \dfrac{1}{\mid S \mid}$
+
+where $\mid S \mid$ is the cardinality of $S$, in other words, the number of possible outcomes in the sample space.
+then, extending to our event space $E$ (which can contain multiple elements):
+
+$P(E) = \dfrac{ \text{number of outcomes in E} }{\text{number of outcomes in S}}= \dfrac{\mid E \mid}{\mid S \mid}$
 
 The problem here is, however, what if all the signular events are not equally likely?
 
