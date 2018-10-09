@@ -7,13 +7,13 @@ Now that you understand the basics of sets, you'll learn how this knowledge can 
 
 ## Objectives
 
-In this lecture, you will 
+You will be able to: 
 
-- learn about experiments, outcomes and event space
-- will be introduced to probability through the law of relative frequency
-- learn about the probability axioms
-- learn about the addition law of probability
-- learn that where each outcome is equally likely, the probability is equal to number of outcomes in the event space divided by number of outcomes in the sample space 
+- Learn about experiments, outcomes and event space
+- Understand probability through the law of relative frequency
+- Learn about the probability axioms
+- Learn about the addition law of probability
+- Learn that where each outcome is equally likely, the probability is equal to number of outcomes in the event space divided by number of outcomes in the sample space 
 
 ## Experiment and outcomes
 
@@ -100,7 +100,3 @@ Put in words, the probability that $A$ or $B$ will happen is the sum of the prob
 ## Summary
 
 Well done! In this section, you learned how to use sets to get to probabilities. You learned about experiments, event spaces and outcomes. Next, you learned about the law of relative frequency and how it can be used to calculate probabilities, along with the three probability axioms.
-
-# Sources
-
-https://en.wikipedia.org/wiki/Probability_axioms
