@@ -54,22 +54,12 @@ Let's denote an event $E$, and $P(E)$ the probability of $E$ occurring. Next, le
 
 $$P(E) = \lim_{n\rightarrow\infty} \dfrac{S{(n)}}{n}$$
 
-This is a useful definition, but in practice, it is fairly cumbersome as $\dfrac{S{(n)}}{n}$ tends to be unsteady in the process of ramping up $n$. The definition of Laplace simplifies this slightly by stating that, if all the singular events in the event space (here denoted by $S$) are as likely.
 
-$$P(E) = \dfrac{ \# E }{\# S}$$
+This is the basis of a frequentist statistical interpretation: an events probability is the ratio of the positive trails to the total number of trials as we repeat the process infinitely. 
 
-To understand this even better, let's look at another way of writing this. Again, if we say each outcome in $S$ is equally likely, then the probability of observing one particular outcome is:
+For example, the probability of rolling a 5 on a 6 sided dice is the limit of the successes to trials as the number of trials goes to infinity.
 
-$P(\text{each outcome}) = \dfrac{1}{\mid S \mid}$
-
-where $\mid S \mid$ is the cardinality of $S$, in other words, the number of possible outcomes in the sample space.
-then, extending to our event space $E$ (which can contain multiple elements):
-
-$P(E) = \dfrac{ \text{number of outcomes in E} }{\text{number of outcomes in S}}= \dfrac{\mid E \mid}{\mid S \mid}$
-
-The problem here is, however, what if all the singular events are not equally likely?
-
-That's why in the early 20th century, Kolmogorov and Von Mises came up with 3 axioms that altogether are equivalent to the law of relative frequency.
+In the early 20th century, Kolmogorov and Von Mises came up with 3 axioms that further expand upon this notion.
 
 ###  Probability axioms
 
