@@ -33,7 +33,7 @@ Other examples of sample spaces:
 
 In this context, we can also define the event space. The **event space** is a subset of the sample space, $E\subseteq S$
 
-For example, the event "throwing a number higher than 4" would result in an event space $E= \{5,6\}$. Throwing an odd number would lead to an event space $E= \{2,4,6\}$. 
+For example, the event "throwing a number higher than 4" would result in an event space $E= \{5,6\}$. Throwing an odd number would lead to an event space $E= \{1,3,5\}$. 
 
 
 Summarized, the event space is a collection of events that we *care* about. We say that event $E$ happened if the actual outcome after rolling the dice belongs to the predefined event space  $E$.
