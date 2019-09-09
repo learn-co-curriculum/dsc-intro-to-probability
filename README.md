@@ -29,7 +29,7 @@ You can then say that:
 - $S$ is our Universal set $\Omega$, as seen before
 
 
-When conducting exeriments, you say that your universal set is your **sample space**: it is the universe in which your
+When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your
 possible outcomes are listed as elements.
 
 Other examples of sample spaces:
@@ -57,12 +57,12 @@ Other examples of event spaces based on previously defined sample spaces:
 
 While conducting an endless stream of experiments, the relative frequency by which an event will happen becomes a fixed number. 
 
-Let's denote an event $E$, and $P(E)$ the probability of $E$ occurring. Next, let $n$ be the number of conducted experiments, and $S(n)$ the count of "succesfull" experiments (i.e. the times that event $E$ happend). The formal definition of probability as a relative frequency is given by:
+Let's denote an event $E$, and $P(E)$ the probability of $E$ occurring. Next, let $n$ be the number of conducted experiments, and $S(n)$ the count of "successful" experiments (i.e. the times that event $E$ happened). The formal definition of probability as a relative frequency is given by:
 
 $$P(E) = \lim_{n\rightarrow\infty} \dfrac{S{(n)}}{n}$$
 
 
-This is the basis of a frequentist statistical interpretation: an events probability is the ratio of the positive trails to the total number of trials as we repeat the process infinitely. 
+This is the basis of a frequentist statistical interpretation: an events probability is the ratio of the positive trials to the total number of trials as we repeat the process infinitely. 
 
 For example, the probability of rolling a 5 on a 6 sided dice is the limit of the successes to trials as the number of trials goes to infinity.
 
@@ -102,7 +102,7 @@ Let's reconsider the dice example to explain what was explained before:
 
 Let's consider two events: event $M$ means throwing a 6, event $N$ means that you throw an odd number $N={1,3,5}$. These events are exclusive, and you can use the additivity rule if you want to know the answer to the question: 
 
-*"what is the probability that your outcome will be a 6, or ann odd number?"*
+*"what is the probability that your outcome will be a 6, or an odd number?"*
 
 $P(M\cup N) = P(M) + P(N) = \dfrac{1}{6}+\dfrac{3}{6}=\dfrac{4}{6} $ 
 
@@ -119,7 +119,7 @@ $P(N\cup Q) = P(N) + P(Q) - P(N \cap Q) = \dfrac{3}{6} + \dfrac{2}{6} - \dfrac{1
 
 In the previous examples, you noticed that for our dice example, it is easy to use these fairly straightforward probability formulas to calculate probabilities of certain outcomes. 
 
-However, if you think about our text message example, things are less straightforward, eg.:
+However, if you think about our text message example, things are less straightforward, e.g.:
 
 *"What is the probability of sending less than 20 text messages in a day?"*
 
