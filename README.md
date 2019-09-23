@@ -3,17 +3,17 @@
 
 ## Introduction
 
-Now that you understand the basics of sets, you'll learn how this knowledge can be used to calculate your first probabilities! In this section, you'll learn how to use sets to create probabilities, and you'll learn about the very foundations of probability through the three probability axioms.
+Now that you understand the basics of sets, you'll learn how this knowledge can be used to calculate your first probabilities! In this section, you'll learn how to use sets to create probabilities and you'll learn about the very foundations of probability through the three probability axioms.
 
 ## Objectives
 
 You will be able to: 
 
-- Learn about experiments, outcomes and event space
+- Learn about experiments, outcomes, and event space
 - Understand probability through the law of relative frequency
 - Learn about the probability axioms
 - Learn about the addition law of probability
-- Learn that where each outcome is equally likely, the probability is equal to number of outcomes in the event space divided by number of outcomes in the sample space 
+- Learn that where each outcome is equally likely, the probability is equal to the number of outcomes in the event space divided by number of outcomes in the sample space 
 
 ## Experiment and outcomes
 
@@ -62,11 +62,11 @@ Let's denote an event $E$, and $P(E)$ the probability of $E$ occurring. Next, le
 $$P(E) = \lim_{n\rightarrow\infty} \dfrac{S{(n)}}{n}$$
 
 
-This is the basis of a frequentist statistical interpretation: an events probability is the ratio of the positive trials to the total number of trials as we repeat the process infinitely. 
+This is the basis of a frequentist statistical interpretation: an event's probability is the ratio of the positive trials to the total number of trials as we repeat the process infinitely. 
 
 For example, the probability of rolling a 5 on a 6 sided dice is the limit of the successes to trials as the number of trials goes to infinity.
 
-In the early 20th century, Kolmogorov and Von Mises came up with 3 axioms that further expand the idea of probability.
+In the early 20th century, Kolmogorov and Von Mises came up with 3 axioms that further expand on the idea of probability.
 
 ###  Probability axioms
 
@@ -123,9 +123,9 @@ However, if you think about our text message example, things are less straightfo
 
 *"What is the probability of sending less than 20 text messages in a day?"*
 
-This is where the probability concepts introduced here fall short. The probability of throwing any number between 1 and 6 with a dice is always exactly $\dfrac{1}{6}$,  but we can't simply count our messages event space. In words, the probability of sending 20 messages is likely different than the probability of sending, say, 5 messages, and will be different for any number of messages sent. You'll learn about tools to solve problems like these later on.
+This is where the probability concepts introduced here fall short. The probability of throwing any number between 1 and 6 with a die is always exactly $\dfrac{1}{6}$,  but we can't simply count our messages event space. In words, the probability of sending 20 messages is likely different than the probability of sending, say, 5 messages, and will be different for any number of messages sent. You'll learn about tools to solve problems like these later on.
 
 
 ## Summary
 
-Well done! In this section, you learned how to use sets to get to probabilities. You learned about experiments, event spaces and outcomes. Next, you learned about the law of relative frequency and how it can be used to calculate probabilities, along with the three probability axioms.
+Well done! In this section, you learned how to use sets to get to probabilities. You learned about experiments, event spaces, and outcomes. Next, you learned about the law of relative frequency and how it can be used to calculate probabilities, along with the three probability axioms.
