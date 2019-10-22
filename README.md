@@ -9,17 +9,16 @@ Now that you understand the basics of sets, you'll learn how this knowledge can 
 
 You will be able to: 
 
-- Learn about experiments, outcomes, and event space
-- Understand probability through the law of relative frequency
-- Learn about the probability axioms
-- Learn about the addition law of probability
-- Learn that where each outcome is equally likely, the probability is equal to the number of outcomes in the event space divided by number of outcomes in the sample space 
+* Compare experiments, outcomes, and the event space
+* Calculate probabilities by using relative frequency of outcomes to event space
+* Describe the three axioms of probability
+* Describe the addition law of probability
 
 ## Experiment and outcomes
 
 Previously, we defined sets and related concepts. Now let's look at the set
 
-$S= \{1,2,3,4,5,6\}$ being the possible outcomes when throwing a dice.
+$S= \{1,2,3,4,5,6\}$, which contains all possible outcomes when throwing a dice.
 
 When you throw a dice once, you can consider this a *random experiment*. The result of this "experiment" is the *outcome*. 
 
@@ -29,18 +28,17 @@ You can then say that:
 - $S$ is our Universal set $\Omega$, as seen before
 
 
-When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your
-possible outcomes are listed as elements.
+When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your possible outcomes are listed as elements.
 
 Other examples of sample spaces:
-- Number of text messages you send each day:  in this case, S is equal to some number x, with x being a **positive integer**, or mathematically: $S = \{x \mid x \in \mathbb{Z}, x \geq 0\}$
+- The number of text messages you send each day:  in this case, S is equal to some number x, with x being a **positive integer**, or mathematically: $S = \{x \mid x \in \mathbb{Z}, x \geq 0\}$
 - The number of hours someone watches TV each day:  $S = \{x \mid x \in \mathbb{R}, 0 \leq x \leq 24 \}$
 
 ## Event space
 
 Next, let's define event space. The **event space** is a subset of the sample space, $E\subseteq S$
 
-For example, the event "throwing a number higher than 4" would result in an event space $E= \{5,6\}$. Throwing an odd number would lead to an event space $E= \{1,3,5\}$. 
+For example, the event "throwing a number higher than 4" when throwing a dice would result in an event space $E= \{5,6\}$. Throwing an odd number would lead to an event space $E= \{1,3,5\}$. 
 
 Summarized, the event space is a collection of events that we *care* about. We say that event $E$ happened if the actual outcome after rolling the dice belongs to the predefined event space  $E$.
 
@@ -49,7 +47,7 @@ With **sample space** and **event space**, you now understand the two foundation
 Other examples of event spaces based on previously defined sample spaces:
 
 - If you define that the event "low daily number of text messages sent" means 20 or fewer text messages, the event space is defined as: $E = \{x \mid x \in \mathbb{Z}, 0 \leq x \leq 20 \}$
-- Bingewatch day:  $E = \{x \mid x \in \mathbb{R}, x \geq 6 \}$
+- Binge-watch day:  $E = \{x \mid x \in \mathbb{R}, x \geq 6 \}$
 
 ## Introduction to probability
 
@@ -57,20 +55,18 @@ Other examples of event spaces based on previously defined sample spaces:
 
 While conducting an endless stream of experiments, the relative frequency by which an event will happen becomes a fixed number. 
 
-Let's denote an event $E$, and $P(E)$ the probability of $E$ occurring. Next, let $n$ be the number of conducted experiments, and $S(n)$ the count of "successful" experiments (i.e. the times that event $E$ happened). The formal definition of probability as a relative frequency is given by:
+Let's denote an event by $E$, and the _probability_ of the event $E$ occurring by $P(E)$. Next, let $n$ be the number of conducted experiments, and $S(n)$ the count of "successful" experiments (i.e. the times that event $E$ happened). The formal definition of probability as a relative frequency is given by:
 
 $$P(E) = \lim_{n\rightarrow\infty} \dfrac{S{(n)}}{n}$$
-
 
 This is the basis of a frequentist statistical interpretation: an event's probability is the ratio of the positive trials to the total number of trials as we repeat the process infinitely. 
 
 For example, the probability of rolling a 5 on a 6 sided dice is the limit of the successes to trials as the number of trials goes to infinity.
 
-In the early 20th century, Kolmogorov and Von Mises came up with 3 axioms that further expand on the idea of probability.
 
 ###  Probability axioms
 
-The three axioms are
+In the early 20th century, Kolmogorov and Von Mises came up with three axioms that further expand on the idea of probability. The three axioms are:
 
 #### 1. Positivity
 
@@ -82,7 +78,7 @@ If the event of interest is the sample space, we say that the outcome is a certa
 
 #### 3. Additivity 
 
-The probability of the union of 2 exclusive events is equal to the sum of the probabilities of the individual events happening.
+The probability of the union of two exclusive events is equal to the sum of the probabilities of the individual events happening.
 
 If $A \cap B = \emptyset $, then $P(A\cup B) = P(A) + P(B)$ 
 
@@ -92,7 +88,7 @@ The additivity axiom is great, but most of the time events are not exclusive. A 
 
 $P(A\cup B) = P(A) + P(B) - P(A \cap B) $ 
 
-Put in words, the probability that $A$ or $B$ will happen is the sum of the probabilities that $A$ will happen and that $B$ will happen, minus the probability that both $A$ and $B$ will happen.
+Put in words, the probability that $A$ or $B$ will happen is the sum of the probabilities that $A$ will happen and that $B$ will happen, minus the probability that *both* $A$ and $B$ will happen.
 
 ## Examples
 
