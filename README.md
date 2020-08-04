@@ -119,7 +119,7 @@ However, if you think about our text message example, things are less straightfo
 
 *"What is the probability of sending less than 20 text messages in a day?"*
 
-This is where the probability concepts introduced here fall short. The probability of throwing any number between 1 and 6 with a die is always exactly  <img src="https://render.githubusercontent.com/render/math?math= \dfrac{1}{6}"> ,  but we can't simply count our messages event space. In words, the probability of sending 20 messages is likely different than the probability of sending, say, 5 messages, and will be different for any number of messages sent. You'll learn about tools to solve problems like these later on.
+This is where the probability concepts introduced here fall short. The probability of throwing any number between 1 and 6 with a die is always exactly  <img src="https://render.githubusercontent.com/render/math?math=\dfrac{1}{6}"> ,  but we can't simply count our messages event space. In words, the probability of sending 20 messages is likely different than the probability of sending, say, 5 messages, and will be different for any number of messages sent. You'll learn about tools to solve problems like these later on.
 
 
 ## Summary
