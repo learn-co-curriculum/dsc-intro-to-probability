@@ -9,10 +9,10 @@ Now that you understand the basics of sets, you'll learn how this knowledge can 
 
 You will be able to: 
 
-* Compare experiments, outcomes, and the event space
-* Calculate probabilities by using relative frequency of outcomes to event space
-* Describe the three axioms of probability
-* Describe the addition law of probability
+- Compare experiments, outcomes, and the event space
+- Calculate probabilities by using relative frequency of outcomes to event space
+- Describe the three axioms of probability
+- Describe the addition law of probability
 
 ## Experiment and outcomes
 
@@ -25,12 +25,12 @@ When you throw a dice once, you can consider this a *random experiment*. The res
 You can then say that:
 
 - $S$ defines all the **possible outcomes** when throwing the dice once
-- $S$ is our Universal set $\Omega$, as seen before
-
+- $S$ is our Universal set <img src="https://render.githubusercontent.com/render/math?math=\Omega">, as seen before
 
 When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your possible outcomes are listed as elements.
 
 Other examples of sample spaces:
+
 - The number of text messages you send each day:  in this case, S is equal to some number x, with x being a **positive integer**, or mathematically: $S = \{x \mid x \in \mathbb{Z}, x \geq 0\}$
 - The number of hours someone watches TV each day:  $S = \{x \mid x \in \mathbb{R}, 0 \leq x \leq 24 \}$
 
@@ -62,7 +62,6 @@ $$P(E) = \lim_{n\rightarrow\infty} \dfrac{S{(n)}}{n}$$
 This is the basis of a frequentist statistical interpretation: an event's probability is the ratio of the positive trials to the total number of trials as we repeat the process infinitely. 
 
 For example, the probability of rolling a 5 on a 6 sided dice is the limit of the successes to trials as the number of trials goes to infinity.
-
 
 ###  Probability axioms
 
