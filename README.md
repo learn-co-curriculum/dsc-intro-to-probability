@@ -9,10 +9,10 @@ Now that you understand the basics of sets, you'll learn how this knowledge can 
 
 You will be able to: 
 
-* Compare experiments, outcomes, and the event space
-* Calculate probabilities by using relative frequency of outcomes to event space
-* Describe the three axioms of probability
-* Describe the addition law of probability
+- Compare experiments, outcomes, and the event space
+- Calculate probabilities by using relative frequency of outcomes to event space
+- Describe the three axioms of probability
+- Describe the addition law of probability
 
 ## Experiment and outcomes
 
@@ -25,8 +25,7 @@ When you throw a dice once, you can consider this a *random experiment*. The res
 You can then say that:
 
 -  <img src="https://render.githubusercontent.com/render/math?math=S"> defines all the **possible outcomes** when throwing the dice once
--  <img src="https://render.githubusercontent.com/render/math?math=S"> is our Universal set  <img src="https://render.githubusercontent.com/render/math?math= \Omega"> , as seen before
-
+-  <img src="https://render.githubusercontent.com/render/math?math=S"> is our Universal set <img src="https://render.githubusercontent.com/render/math?math=\Omega"> , as seen before
 
 When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your possible outcomes are listed as elements.
 
@@ -109,7 +108,6 @@ Now, let's consider the same event  <img src="https://render.githubusercontent.c
 Note that  <img src="https://render.githubusercontent.com/render/math?math=(N    \cap Q)"> is equal to getting an outcome of 5, as that is the "common" element in the respective event spaces of  <img src="https://render.githubusercontent.com/render/math?math=N"> and  <img src="https://render.githubusercontent.com/render/math?math=Q"> . This means that  <img src="https://render.githubusercontent.com/render/math?math=P(N    \cap Q) =   \dfrac{1}{6}"> 
 
  <img src="https://render.githubusercontent.com/render/math?math=P(N  \cup Q) = P(N) %2b P(Q) - P(N    \cap Q) =   \dfrac{3}{6} %2b   \dfrac{2}{6} -   \dfrac{1}{6} =   \dfrac{4}{6} "> 
-
 
 ## Final Note
 
