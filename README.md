@@ -25,7 +25,7 @@ When you throw a dice once, you can consider this a *random experiment*. The res
 You can then say that:
 
 - $S$ defines all the **possible outcomes** when throwing the dice once
-- $S$ is our Universal set <img src="https://render.githubusercontent.com/render/math?math=\Omega">, as seen before
+- $S$ is our Universal set $\Omega$, as seen before
 
 When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your possible outcomes are listed as elements.
 
