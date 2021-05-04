@@ -83,7 +83,7 @@ If $A \cap B = \emptyset $, then $P(A\cup B) = P(A) + P(B)$
 
 ### Addition law of probability
 
-The additivity axiom is great, but most of the time events are not exclusive. A very important property is the **addition law or probability** or the **sum rule**.
+The additivity axiom is great, but most of the time events are not exclusive. A very important property is the **addition law of probability** or the **sum rule**.
 
 $P(A\cup B) = P(A) + P(B) - P(A \cap B) $ 
 
