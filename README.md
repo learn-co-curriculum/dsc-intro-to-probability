@@ -55,7 +55,7 @@ Other examples of sample spaces:
 - Mathematically, x being an integer looks like $x \in \mathbb{Z}$. $\mathbb{Z}$ is a "special" set, containing all integers.
 - x being non-negative looks like $x \geq 0$
 - To represent the set of x values that meet both requirements, we'll use an additional way of defining a set, called the "set builder" notation. In set builder notation, the vertical bar $\mid$ means "such that", and the conditions are separated by commas
-- Our overall definition of $S$ is $S = \{x \mid x \in \mathbb{Z}, x \geq 0\}$. In other words, $S$ contains all instances of x such that x is an integer and x is greater than and equal to zero.
+- Our overall definition of $S$ is $S = \{x \mid x \in \mathbb{Z}, x \geq 0\}$. In other words, $S$ contains all instances of x such that x is an integer and x is greater than or equal to zero.
 
 #### The number of hours someone watches TV each day:
 - In this case, let's say that x is a **real number between 0 and 24**
