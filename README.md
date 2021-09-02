@@ -29,9 +29,9 @@ You can then say that:
 
 When conducting experiments, you say that your universal set is your **sample space**: it is the universe in which your possible outcomes are listed as elements.
 
-Other examples of sample spaces:
-- The number of text messages you send each day:  in this case, S is equal to some number x, with x being a **positive integer**, or mathematically:  <img src="https://render.githubusercontent.com/render/math?math=S =   \{x   \mid x   \in   \mathbb{Z}, x   \geq 0 \}"> 
-- The number of hours someone watches TV each day:   <img src="https://render.githubusercontent.com/render/math?math=S =   \{x   \mid x   \in   \mathbb{R}, 0   \leq x   \leq 24   \}"> 
+Other examples of sample spaces:  
+- The number of text messages you send each day:  in this case, S is equal to some number x, with x being a **positive integer**, or mathematically:  <img src="https://render.githubusercontent.com/render/math?math=S =   \{x   \mid x   \in   \mathbb{Z}, x   \geq 0 \}">.  
+- The number of hours someone watches TV each day:   <img src="https://render.githubusercontent.com/render/math?math=S =   \{x   \mid x   \in   \mathbb{R}, 0   \leq x   \leq 24   \}">   
 
 ## Event space
 
