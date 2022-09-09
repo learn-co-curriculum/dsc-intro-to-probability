@@ -89,7 +89,7 @@ Other examples of event spaces based on previously defined sample spaces:
 
 Once you understand sample spaces and event spaces, you understand the foundational concepts of probability.
 
-### The Law of Relative Frequency
+### The Law of Large Numbers
 
 While conducting an endless stream of experiments, the relative frequency by which an event will happen becomes a fixed number. 
 
@@ -175,4 +175,4 @@ This is where the probability concepts introduced here fall short. The probabili
 
 ## Summary
 
-Well done! In this section, you learned how to use sets to get to probabilities. You learned about experiments, event spaces, and outcomes. Next, you learned about the law of relative frequency and how it can be used to calculate probabilities, along with the three probability axioms.
+Well done! In this section, you learned how to use sets to get to probabilities. You learned about experiments, event spaces, and outcomes. Next, you learned about the law of large numbers and how it can be used to calculate probabilities, along with the three probability axioms.
